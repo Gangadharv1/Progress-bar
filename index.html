@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-container">
+        <svg class="progress-circle" width="200" height="200">
+            <circle class="progress-circle-bg" cx="100" cy="100" r="90"></circle>
+            <circle class="progress-circle-fg" cx="100" cy="100" r="90" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+        </svg>
+        <div class="progress-text" id="progressText">0%</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
